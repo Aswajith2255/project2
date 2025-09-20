@@ -1,50 +1,48 @@
-.card{
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-
+.card {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.menu{
-   text-align: center;
-   margin-top: 30px;
-}
-.card .cards{
- 
-    border: 1px solid black;
-    width: 300px;
-    height: 360px;
-    border-radius: 20px;
-    background-color: rgb(186, 183, 180);
-   border: none;
-
+.menu {
+  text-align: center;
+  margin-top: 30px;
 }
 
-.cards h2{
-  
-   text-align: center;
-   padding: 10px;
-   
-}
-.card .cards  p{
- margin-top: 10px;
- margin-left: 20px;
- 
- 
+.card .cards {
+  border: none;
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  background-color: rgb(186, 183, 180);
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;   /* ✅ center all content */
 }
 
-
-.card .cards img{
-border-radius: 20px;
-width: 250px;
-height: 250px;
-margin-left: 25px;
-   
-   
+.cards h2 {
+  text-align: center;
+  padding: 10px 0;
 }
+
+.card .cards p {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card .cards img {
+  border-radius: 20px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
 
 @media (max-width: 600px) {
   .card {
@@ -61,18 +59,16 @@ margin-left: 25px;
     padding-bottom: 15px;   
   }
 
-.card .cards img {
-  width: 90%;
-  height: 200px;       
-  margin: 0 auto;
-  display: block;
-  object-fit: cover;   
-}
+  .card .cards img {
+    width: 100%;
+    height: 200px;       
+    object-fit: cover;   
+  }
+
   .card .cards p {
-    margin: 10px;
+    margin: 10px auto;  
     font-size: 14px;         
     text-align: center;  
-    margin-left: -150px;   
   }
 
   .cards h2 {
