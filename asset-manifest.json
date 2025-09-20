@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/project2/static/css/main.1028d9ca.css",
+    "main.js": "/project2/static/js/main.8ae9c4d7.js",
+    "static/js/453.f6195c36.chunk.js": "/project2/static/js/453.f6195c36.chunk.js",
+    "static/media/beef.webp": "/project2/static/media/beef.512debb4b30f55437c26.webp",
+    "static/media/sandw.jpg": "/project2/static/media/sandw.29ed70d3697d25dad043.jpg",
+    "static/media/logo.png": "/project2/static/media/logo.cbef7efb80ebbe80de70.png",
+    "static/media/kadala-curry.webp": "/project2/static/media/kadala-curry.23d51e82249bc1ed7e02.webp",
+    "static/media/porotta.jpeg": "/project2/static/media/porotta.5260686256f0bd6fa27e.jpeg",
+    "static/media/Dosa.jpg": "/project2/static/media/Dosa.c01223141947356252fc.jpg",
+    "static/media/egg-curry.webp": "/project2/static/media/egg-curry.b396d28c3c8c5892921a.webp",
+    "static/media/idli.webp": "/project2/static/media/idli.45a4f6e15f4e59ed73ad.webp",
+    "static/media/appam.webp": "/project2/static/media/appam.d55d383d99e7e75a8b90.webp",
+    "index.html": "/project2/index.html",
+    "main.1028d9ca.css.map": "/project2/static/css/main.1028d9ca.css.map",
+    "main.8ae9c4d7.js.map": "/project2/static/js/main.8ae9c4d7.js.map",
+    "453.f6195c36.chunk.js.map": "/project2/static/js/453.f6195c36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1028d9ca.css",
+    "static/js/main.8ae9c4d7.js"
+  ]
+}
