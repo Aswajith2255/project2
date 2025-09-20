@@ -1,0 +1,130 @@
+.banner .banner-img img{
+    width: 100%;
+    height: 740px;
+    object-fit: fill;
+}
+.banner-img{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 40%;
+    margin-left: 30px;
+    color: rgb(62, 78, 91);
+}
+.banner-text p{
+    color: rgb(46, 43, 43);
+}
+
+
+.banner-button{
+    position: absolute;
+    top: 59%;
+    margin-left: 30px;
+    background-color: rgba(51,51,51,.5);
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+
+    
+}
+.banner-qitchen{
+    position: absolute;
+    top: 20%;
+    margin-left:500px ;
+    color: rgb(172, 171, 170);
+
+}
+.banner-button:hover{
+    background-color: azure;
+    color: black;
+}
+.banner-icon{
+    position: absolute;
+    top: 65%;
+    margin-left: 200px;
+  
+
+}
+.banner-icon .banner-left{
+    position: absolute;
+    top:5% ;
+    margin-left: 20px;
+}
+.banner-icon img{
+width: 40px;
+}
+span{
+    color: green;
+}
+
+/* Default (Desktop) styles – keep your current ones */
+
+/* Responsive for tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .banner .banner-img img {
+    height: 500px; /* reduce height */
+    object-fit: cover;
+  }
+
+  .banner-qitchen {
+    margin-left: 200px; /* center more */
+    font-size: 18px;
+  }
+
+  .banner-text {
+    top: 35%;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .banner-button {
+    top: 55%;
+    margin-left: 20px;
+    width: 80px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .banner-icon {
+    top: 62%;
+    margin-left: 100px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .banner .banner-img img {
+    height: 350px; 
+    object-fit: cover;
+  }
+
+  .banner-text {
+
+    top: 20%;  
+    left: 10px;
+    margin-left: 0;
+    font-size: 14px;
+   
+  }
+
+  .banner-button {
+     margin-top:-130px;
+
+  }
+
+  .banner-qitchen {
+    margin-top:-60px ;
+  
+  }
+
+  .banner-icon {
+   margin-top:-200px;
+   margin-left: 130px;
+  }
+
+  .banner-icon img {
+    width: 30px; 
+  }
+}
